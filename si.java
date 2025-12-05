@@ -1,9 +1,14 @@
 import java.lang.*;
+import java.util.Scanner;
 class si{
       public static void main(String args[]){
-             int p=5;
-             int r=6;
-             int t=5;
+             Scanner sc=new Scanner(System.in);
+             System.out.println("p value is:");
+             int p=sc.nextInt();
+             System.out.println("r value is:");
+             int r=sc.nextInt();
+             System.out.println("t value is:");
+             int t=sc.nextInt();
 	     double si=(p*r*t)/100;
 	     System.out.println("p value is:"+p);
              System.out.println("r value is:"+r);
