@@ -1,8 +1,12 @@
 import java.lang.*;
+import java.util.Scanner;
 class perimeter{
       public static void main(String args[]){
-             int l=6;
-             int w=13;
+             Scanner sc=new Scanner(System.in);
+             System.out.println("l value is:");
+             int l=sc.nextInt();
+             System.out.println("w value is:");
+             int w=sc.nextInt();
 	     double perimeter=2*(l*w);
 	     System.out.println("l value is:"+l);
              System.out.println("w value is:"+w);
